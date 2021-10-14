@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/ogp.png" />
+    <meta property="og:url" content="https://github.io/KarinaPriscilla/Progate-Final-Project/" />
+    <meta property="og:title" content="myTools - Online Tools For Productivity" />
+    <meta property="og:description"
+        content="An online collection of everyday productivity tools that you can use anywhere, and anytime, to help you increase your productivity" />
+
+    <title>myTools - Online Tools For Productivity</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/black.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <section id="logo">
+                <img src="./img/white.png" alt="myTools" />
+                <a href="./index.html">myTools</a>
+            </section>
+            <section id="nav-list">
+                <ul class="menus">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#main-content" id="#nav-apps">Apps</a><i class="fas fa-caret-down" onclick="btnDropDown()" id="btnArrow"></i></li>
+                    <li><a href="./pages/about.html">About</a></li>
+                </ul>
+                <ul id="dropdown-menu">
+                    <li><a href="./pages/to-do.html">To-Do List</a></li>
+                    <li><a href="./pages/sticky-notes.html">Sticky Notes</a></li>
+                    <li><a href="./pages/eisenhower-matrix.html">Eisenhower Matrix</a></li>
+                </ul>
+            </section>
+            <section id="login">
+                <a href="#">Login</a>
+            </section>
+            <section id="menu-bar">
+               <i class="fa fa-bars" onclick="showAllMenu()"></i>
+            </section>
+            <section id="nav-list-down">
+                <ul class="menusR">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#main-content" id="#nav-apps">Apps</a><i class="fas fa-caret-down" onclick="btnDropDownR()"
+                            id="btnArrowR"></i></li>
+                    <li><a href="./pages/about.html">About</a></li>
+                </ul>
+                <ul id="dropdown-menuR">
+                    <li><a href="./pages/to-do.html">To-Do List</a></li>
+                    <li><a href="./pages/sticky-notes.html">Sticky Notes</a></li>
+                    <li><a href="./pages/eisenhower-matrix.html">Eisenhower Matrix</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <section id="main-header">
+            <h1>Free simple tools to boost your productivity</h1>
+            <p>An online collection of everyday productivity tools that you can use anywhere, and anytime, to help you increase your productivity. <strong>All for free!</strong></p>
+            <a href="#main-content">Get Started</a>
+        </section>
+        <section id="main-header-img">
+            <img src="./img/main-header.png" title="Photo by Christin Hume on Unsplash" alt="Photo by <a
+                href='https://unsplash.com/@christinhumephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Christin
+                Hume</a> on <a
+                href='https://unsplash.com/s/photos/laptop-desk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" />
+        </section>
+        <section id="main-content">
+            <h2>Productivity Tools</h2>
+            <section id="main-content-list">
+                    <section class="apps">
+                        <img src="./img/todo-app.png" />
+                        <section class="app-details">
+                            <p>To-Do List</p>
+                            <p id="app-detail1">A simple To-Do List that can help you organize your day. You can add as many lists as you want, edit them if you want, and also mark them as done when you've finished the task.</p>
+                            <a href="./pages/to-do.html">CLICK HERE</a>
+                        </section>
+                    </section>
+                    <section class="apps" >
+                        <img src="./img/sticky-notes-app.png" />
+                        <section class="app-details">
+                            <p>Sticky Note</p>
+                            <p id="app-detail2">A simple Sticky Notes Online Board that can help you organize your day. Add as many notes as you want! Just as simple as sticking them on the wall!</p>
+                            <a href="./pages/sticky-notes.html">CLICK HERE</a>
+                        </section>
+                    </section>
+                    <section class="apps" >
+                        <img src="./img/eisenhower-app.png" />
+                        <secion class="app-details">
+                            <p>Eisenhower Matrix</p>
+                            <p id="app-detail3">Based on Eisenhower Matrix by Ike Eisenhower. This matrix will help you prioritize your daily task on what matter the most easily.</p>
+                            <a href="./pages/eisenhower-matrix.html">CLICK HERE</a>
+                        </secion>
+                    </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section id="footer-list">
+            <ul id="app-list">
+                <li><a href="./pages/to-do.html">To-Do List</a></li>
+                <li><a href="./pages/sticky-notes.html">Sticky Notes</a></li>
+                <li><a href="./pages/eisenhower-matrix.html">Eisenhower Matrix</a></li>
+            </ul>
+            <a href="./pages/about.html" id="footer-about">About</a>
+        </section>
+        <section id="footer-note">
+            <p>By <a href="https://github.com/KarinaPriscilla" target="_blank">Karina Priscilla</a> on <a href="https://github.com/" target="_blank">Github</a></p>
+        </section>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#memos {
+    padding: 30px;
+}
+
+#note {
+    padding: 10px;
+    background-color: #191919;
+    border: 1px solid #272727;
+    border-radius: 10px;
+    margin: 15px;
+    color: #DFE2DB;
+    box-shadow: 2px 2px #000;
+}
+
+#btnNew {
+    background-color: #00BAA5;
+    color: #DFE2DB;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10pt;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 60px auto 20px;
+}
+
+#main-sticky-notes {
+    margin: 80px auto;
+    width: 60%;
+    border: 1px solid #111111;
+    border-radius: 15px;
+    box-shadow: 5px 5px #000;
+    padding: 20px;
+    min-height: 500px;
+}
+
+p#showDate {
+    font-size: 8pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

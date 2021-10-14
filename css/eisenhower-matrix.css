@@ -1,0 +1,120 @@
+#inputTask {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 10pt;
+    line-height: 16pt;
+    border: none;
+    background-color: #191919;
+    border-bottom: 1px solid #00BAA5;
+    color: #DFE2EB;
+}
+
+#inputTask:focus {
+    outline: none;
+    border-bottom: 1px solid #DFE2EB;
+}
+
+.input p {
+    margin-top: 15px;
+    font-size: 8pt;
+}
+
+#bdo, #bdecide, #bdelegate, #bdelete {
+    width: 5%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+
+#bdo:hover, #bdecide:hover, #bdelegate:hover, #bdelete:hover {
+    opacity: 0.5;
+}
+
+#do, #decide, #delegate, #delete {
+    /* max-height: 180px; */
+    margin: 20px 0 10px;
+    width: 45%;
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#do p, #decide p, #delegate p, #delete p {
+    font-size: 8pt;
+    padding: 10px;
+}
+
+#do input, #decide input, #delegate input, #delete input {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #191919;
+    color: #DFE2DB;
+}
+
+#bdo {
+    background-color: #00BAA5;
+}
+
+#bdecide {
+    background-color:#40CBCC;
+}
+
+#bdelegate {
+    background-color:#80DDD2;
+}
+
+#bdelete {
+    background-color:#BFEEE9;
+}
+
+#do p {
+    color: #00BAA5;
+}
+
+#decide p {
+    color:#40CBCC;
+}
+
+#delegate p {
+    color: #80DDD2;
+}
+
+#delete p {
+    color: #BFEEE9;
+}
+
+#main-eisenhower-matrix {
+    margin: 80px auto;
+    width: 50%;
+    border: 1px solid #111111;
+    border-radius: 15px;
+    box-shadow: 5px 5px #000;
+    padding: 20px;
+}
+
+p#showDate {
+    font-size: 8pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#do input, #decide input, #delegate input, #delete input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #222222;
+}
+
+input.iDo, input.iDec, input.iDeg, input.iDel {
+    font-size: 8pt;
+}
+
+#do, #decide, #delegate, #delete {
+    border: 1px solid #111111;
+    border-radius: 15px;
+    box-shadow: 5px 5px #000;
+    border-radius: 5px;
+}

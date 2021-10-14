@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myTools - Online Tools For Productivity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../img/black.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sticky-notes.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section id="logo">
+                <img src="../img/white.png" alt="myTools" />
+                <a href="../index.html">myTools</a>
+            </section>
+            <section id="nav-list">
+                <ul class="menus">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#main-content" id="#nav-apps">Apps</a><i class="fas fa-caret-down"
+                            onclick="btnDropDown()" id="btnArrow"></i></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+                <ul id="dropdown-menu">
+                    <li><a href="./to-do.html">To-Do List</a></li>
+                    <li><a href="./sticky-notes.html">Sticky Notes</a></li>
+                    <li><a href="./eisenhower-matrix.html">Eisenhower Matrix</a></li>
+                </ul>
+            </section>
+            <section id="login">
+                <a href="#">Login</a>
+            </section>
+            <section id="menu-bar">
+                <i class="fa fa-bars" onclick="showAllMenu()"></i>
+            </section>
+            <section id="nav-list-down">
+                <ul class="menusR">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#main-content" id="#nav-apps">Apps</a><i class="fas fa-caret-down"
+                            onclick="btnDropDownR()" id="btnArrowR"></i></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+                <ul id="dropdown-menuR">
+                    <li><a href="./to-do.html">To-Do List</a></li>
+                    <li><a href="./sticky-notes.html">Sticky Notes</a></li>
+                    <li><a href="./eisenhower-matrix.html">Eisenhower Matrix</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <section id="main-content">
+            <h2>Sticky Notes</h2>
+            <section id="main-sticky-notes">
+                <p id="showDate"></p>
+                <button type="submit" id="btnNew" onclick="add()">Click Here to Start Adding Memos</button>
+                <section id="memos">
+                    <section class="memo"></section>
+                </section>
+                    <ul id="done"></ul>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section id="footer-list">
+            <ul id="app-list">
+                <li><a href="./to-do.html">To-Do List</a></li>
+                <li><a href="./sticky-notes.html">Sticky Notes</a></li>
+                <li><a href="./eisenhower-matrix.html">Eisenhower Matrix</a></li>
+            </ul>
+            <a href="./about.html" id="footer-about">About</a>
+        </section>
+        <section id="footer-note">
+            <p>By <a href="https://github.com/KarinaPriscilla" target="_blank">Karina Priscilla</a> on <a
+                    href="https://github.com/" target="_blank">Github</a></p>
+        </section>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/sticky-note.js"></script>
+</body>
+
+</html>
